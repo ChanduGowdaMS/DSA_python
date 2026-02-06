@@ -28,12 +28,6 @@ class MobilePhone(ElectronicProduct):
         self.display_electronic_product()
         print("RAM:", self.ram)
         print("Storage:", self.storage)
-mobile = MobilePhone(
-    "Smartphone",
-    25000,
-    "Samsung",
-    "1 Year",
-    "8 GB",
-    "128 GB"
-)
+
+mobile = MobilePhone("Smartphone", 25000, "Samsung", "1 Year", "8 GB", "128 GB")
 mobile.display_mobile_details()
